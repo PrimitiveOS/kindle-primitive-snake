@@ -1,0 +1,10 @@
+[package]
+name = "snake-kindle"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+snake-core.workspace = true
+snake-render.workspace = true
+primitive-app.workspace = true

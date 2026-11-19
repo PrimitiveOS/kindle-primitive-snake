@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "primitive-snake",
+  "dir": "snake",
+  "name": "Snake",
+  "subtitle": "Keep moving and beat your best score",
+  "developer": {
+    "name": "Primitive AI"
+  },
+  "categories": [
+    "games"
+  ],
+  "description": "Choose a speed from 1 to 9 and steer a continuously moving snake. Each bite adds a segment and awards points equal to your chosen speed. Fill the board for a 100-point bonus. A wall or body collision ends the round.\n\nSwipe or tap the arrow buttons to steer. Pause at any time and beat your saved best score.",
+  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-snake",
+  "licence": "PolyForm-Noncommercial-1.0.0",
+  "source": "hosted",
+  "icon": "icon.png",
+  "changes": {
+    "network": false,
+    "stops_kindle_ui": false,
+    "starts_at_boot": false,
+    "root_filesystem": false,
+    "hooks": false
+  },
+  "versions": []
+}
