@@ -910,11 +910,11 @@ checksum = "3244542535d5de959d90ec55d1b5ff0fd2bb7b1310223907d5f11932847f7b59"
 
 [[package]]
 name = "snake-core"
-version = "0.1.1"
+version = "0.1.2"
 
 [[package]]
 name = "snake-desktop"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "primitive-app",
  "primitive-ui",
@@ -924,7 +924,7 @@ dependencies = [
 
 [[package]]
 name = "snake-kindle"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "primitive-app",
  "snake-core",
@@ -933,7 +933,7 @@ dependencies = [
 
 [[package]]
 name = "snake-render"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "primitive-app",
  "primitive-ui",
