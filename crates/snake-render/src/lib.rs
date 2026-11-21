@@ -285,8 +285,10 @@ impl App for View {
         let active = matches!(self.phase, Phase::Running(_));
         for (index, direction) in Direction::ALL.into_iter().enumerate() {
             let button = direction_button(w, index);
+            // A tap reverses the button: a selected direction turns white while it is held.
             let pressed = active && canvas.control_pressed(button, false);
-            let filled = active && (pressed || self.game.next_direction() == Some(direction));
+            let selected = self.game.next_direction() == Some(direction);
+            let filled = active && (selected != pressed);
             canvas.panel(button, 16, 4, if filled { BLACK } else { PAPER });
             let size = canvas.px(54);
             let glyph = Rect::new(
