@@ -238,7 +238,7 @@ impl App for View {
             self.draw_speed_choices(canvas, w);
             return;
         }
-        header(canvas, "Snake", "Done");
+        header(canvas, "Snake", "Exit");
 
         canvas.card(screen_rect(w, 40, 162, 1184, 100));
         let values = [
