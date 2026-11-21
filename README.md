@@ -1,16 +1,27 @@
+<div align="center">
+
+<img src="icon.png" alt="Snake icon" width="110">
+
 # Snake
 
-**Catch food, grow your tail, and beat your best score.**
+**Keep moving and beat your best score**
 
-Snake is a native PrimitiveOS game for Kindle inspired by the early mobile arcade game. The snake moves continuously. Choose a speed before the round and catch food to grow.
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-snake?label=release)](https://github.com/PrimitiveOS/kindle-primitive-snake/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-21-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-## How to play
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-snake/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-- Choose **Speed** from 1 to 9, then tap **Start**. Swipe on the board or tap an arrow to steer.
-- Each bite adds one segment and scores points equal to your chosen speed. Filling the board adds 100 points. A wall or tail collision ends the round.
-- Tap **Pause** to stop movement or **New round** to play again after a collision. Your best score saves between launches.
+</div>
 
-**Done** returns to Launcher.
+---
+
+Choose a speed from 1 to 9 and steer a continuously moving snake. Each bite adds a segment and awards points equal to your chosen speed. Fill the board for a 100-point bonus. A wall or body collision ends the round.
+
+Swipe or tap the arrow buttons to steer. Pause at any time and beat your saved best score.
+
+## Quick start
+
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Snake** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
 ## Screenshots
 
@@ -27,11 +38,6 @@ Snake is a native PrimitiveOS game for Kindle inspired by the early mobile arcad
 
 Desktop simulation captures at 1264 × 1680 pixels.
 
-## Install
-
-After setting up PrimitiveOS, open **Store** from Launcher. Find **Snake** under **Apps** and choose **Get**.
-See the [installation guide](INSTALL.md) for the local build workflow.
-
 ## Develop locally
 
 Keep the Tools and Launcher checkouts next to this repository.
@@ -42,6 +48,29 @@ cargo run --offline --locked -p snake-desktop
 ```
 
 The desktop run exercises the game timer, steering, pause, and game over. It writes previews to `build/previews/`.
+
+## Highlights
+
+- Choose a speed from 1 to 9 and steer a continuously moving snake.
+- Each bite adds a segment and awards points equal to your chosen speed.
+- Fill the board for a 100-point bonus.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**21 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
